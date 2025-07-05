@@ -426,10 +426,6 @@ function App() {
           pointerEvents: 'none'
         }}
         onContextMenu={(e) => e.preventDefault()}
-        onLoadedData={(e) => {
-          const video = e.target as HTMLVideoElement;
-          video.playbackRate = 0.5;
-        }}
       >
         <source src={bgVideo} type="video/mp4" />
       </video>
