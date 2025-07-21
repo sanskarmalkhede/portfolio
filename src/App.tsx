@@ -190,28 +190,28 @@ function App() {
             }}>
               {[
                 {
-                  name: 'E-Commerce Platform',
-                  description: 'Full-stack e-commerce solution with React, Node.js, and PostgreSQL',
-                  tech: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
-                  github: '#'
+                  name: 'Korai Health',
+                  description: 'A web-app that helps health reports understandable.',
+                  tech: ['Next.js', 'Node.js', 'OCR API', 'Vercel'],
+                  github: 'https://github.com/sanskarmalkhede/korai-health'
                 },
                 {
-                  name: 'Task Management App',
+                  name: 'AI Chatbot Frontend',
                   description: 'Collaborative task management tool with real-time updates',
-                  tech: ['Next.js', 'TypeScript', 'MongoDB', 'Socket.io'],
-                  github: '#'
+                  tech: ['Next.js', 'TypeScript', 'Tailwind', 'Zustand'],
+                  github: 'https://github.com/sanskarmalkhede/frontend-kuvaka-tech-assignment'
                 },
                 {
-                  name: 'Weather Dashboard',
-                  description: 'Beautiful weather app with interactive charts and forecasts',
-                  tech: ['React', 'Chart.js', 'OpenWeather API', 'CSS3'],
-                  github: '#'
+                  name: 'Chat Pulse',
+                  description: 'A seamless public chat experience with video and audio capabilities.',
+                  tech: ['React', 'Node.js', 'Socket.io', 'Express'],
+                  github: 'https://github.com/sanskarmalkhede/chat-pulse'
                 },
                 {
-                  name: 'Portfolio Website',
-                  description: 'Responsive portfolio website with smooth animations',
-                  tech: ['React', 'TypeScript', 'Tailwind', 'Framer Motion'],
-                  github: '#'
+                  name: 'Inspirational-Quotes',
+                  description: 'Inspirational Quotes is an chrome based web extension.',
+                  tech: ['HTML', 'Javascript', 'Chrome Extension'],
+                  github: 'https://github.com/sanskarmalkhede/Inspirational-Quotes'
                 }
               ].map((project, index) => (
                 <div key={index} style={{
@@ -271,7 +271,7 @@ function App() {
                       </span>
                     ))}
                   </div>
-                  <a href={project.github} style={{
+                  <a target="_blank" href={project.github} style={{
                     display: 'inline-block',
                     padding: '0.5rem 1rem',
                     backgroundColor: 'rgba(255, 255, 255, 0.05)',
