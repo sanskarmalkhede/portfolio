@@ -215,7 +215,7 @@ function App() {
                 }
               ].map((project, index) => (
                 <div key={index} style={{
-                  backgroundColor: 'rgba(255, 255, 255, 0.08)',
+                  backgroundColor: 'rgba(255, 255, 255, 0.02)',
                   border: '2px solid rgba(255, 255, 255, 0.2)',
                   borderRadius: '1rem',
                   padding: '1.5rem',
@@ -319,7 +319,7 @@ function App() {
             </h1>
 
             <div style={{
-              backgroundColor: 'rgba(255, 255, 255, 0.08)',
+              backgroundColor: 'rgba(255, 255, 255, 0.02)',
               border: '2px solid rgba(255, 255, 255, 0.2)',
               borderRadius: '2rem',
               padding: '3rem 2rem',
