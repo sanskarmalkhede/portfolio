@@ -113,7 +113,7 @@ function App() {
               textShadow: '2px 2px 4px rgba(0,0,0,1)',
               transform: 'translateY(-2vh)'
             }}>
-              I'm a passionate full-stack developer with over 3 years of experience in creating modern web applications. 
+              I'm a passionate full-stack developer with over 1.5 years of professional experience in creating modern web applications. 
               I love turning complex problems into simple, beautiful solutions that provide great user experiences.
             </p>
 
@@ -135,7 +135,7 @@ function App() {
                 gap: '0.5rem',
                 justifyContent: 'center'
               }}>
-                {['React', 'TypeScript', 'Node.js', 'Python', 'PostgreSQL', 'MongoDB', 'AWS', 'Docker', 'GraphQL', 'Next.js'].map(skill => (
+                {['React', 'TypeScript', 'Node.js', 'Java', 'PostgreSQL', 'MongoDB', 'AWS', 'Docker', 'GraphQL', 'Next.js'].map(skill => (
                   <span key={skill} style={{
                     padding: '0.4rem 0.8rem',
                     backgroundColor: 'rgba(255, 255, 255, 0.08)',
@@ -148,7 +148,7 @@ function App() {
                   }}>
                     {skill}
                   </span>
-                ))}
+                ))} 
               </div>
             </div>
           </div>
@@ -373,9 +373,9 @@ function App() {
                   transition: 'all 0.25s',
                   textShadow: '1px 1px 2px rgba(0,0,0,1)'
                 }}>
-                  📧 Email Me
+                   Email Me 🡵
                 </a>
-                <a href="#" style={{
+                {/* <a href="#" style={{
                   padding: '0.75rem 1.5rem',
                   backgroundColor: 'rgba(255, 255, 255, 0.12)',
                   border: '2px solid rgba(255, 255, 255, 0.3)',
@@ -389,7 +389,7 @@ function App() {
                   textShadow: '1px 1px 2px rgba(0,0,0,1)'
                 }}>
                   💬 Schedule Call
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -610,7 +610,7 @@ function App() {
               alignItems: 'center',
               flexWrap: 'wrap'
             }}>
-              <a href="#" style={{
+              <a target="_blank" href="https://drive.google.com/file/d/1KID5iC7LbTfbmqvydoNOuV3_sMOgekqV/view?usp=sharing" style={{
                 fontFamily: 'JetBrains Mono, Consolas, "Courier New", monospace',
                 fontSize: '0.75rem',
                 color: 'rgba(255, 255, 255, 0.8)',
@@ -619,7 +619,7 @@ function App() {
               }}>
                 resume
               </a>
-              <a href="#" style={{
+              <a target="_blank" href="https://github.com/sanskarmalkhede" style={{
                 fontFamily: 'JetBrains Mono, Consolas, "Courier New", monospace',
                 fontSize: '0.75rem',
                 color: 'rgba(255, 255, 255, 0.8)',
@@ -628,7 +628,7 @@ function App() {
               }}>
                 github
               </a>
-              <a href="#" style={{
+              <a target="_blank" href="https://www.linkedin.com/in/sanskar-" style={{
                 fontFamily: 'JetBrains Mono, Consolas, "Courier New", monospace',
                 fontSize: '0.75rem',
                 color: 'rgba(255, 255, 255, 0.8)',
@@ -637,7 +637,7 @@ function App() {
               }}>
                 linkedin
               </a>
-              <a href="#" style={{
+              <a target="_blank" href="https://x.com/sanskarmalkhede" style={{
                 fontFamily: 'JetBrains Mono, Consolas, "Courier New", monospace',
                 fontSize: '0.75rem',
                 color: 'rgba(255, 255, 255, 0.8)',
