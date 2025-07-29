@@ -360,7 +360,7 @@ function App() {
                 justifyContent: 'center',
                 flexWrap: 'wrap'
               }}>
-                <a href="mailto:sanskar@email.com" style={{
+                <a href="mailto:malkhedesanskar@gmail.com" style={{
                   padding: '0.75rem 1.5rem',
                   backgroundColor: 'rgba(255, 255, 255, 0.12)',
                   border: '2px solid rgba(255, 255, 255, 0.3)',
